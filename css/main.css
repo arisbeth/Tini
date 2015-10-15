@@ -1,0 +1,135 @@
+*{font-family: 'Roboto', Sans-serif}
+
+header{
+  background-color: #FAD013;
+  background-size: 100%;
+  height: 600px;
+}
+/* Inserte su codigo aqui */
+
+ul {
+  list-style: none;
+  text-align: right;
+  margin-top: 4%
+
+}
+
+ 
+a{
+  text-decoration: none;
+  display: block;
+  color: white;
+  transition: background-color 0.5s ease
+}
+ 
+a:hover {
+  background-color: #FFBF00;
+}
+ 
+li {
+    display: inline-block;
+    font-size: 12px;
+    color: white;
+    line-height: 40px;
+    height: 40px;
+    margin-left: 20px;
+    margin-right: 20px
+}
+
+/* botón súmate*/
+nav button{
+  background-color:#FFBF00;
+  text-align: center;
+  border:none;
+  float: left;
+  margin-bottom: 17%;
+  padding:0 20px;
+}
+
+button:hover{opacity: .5;
+transition: opacity 0.5s ease}
+
+
+/* sección de Ejemplos*/
+h4{
+	padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+
+}
+
+h4:hover{
+  color: #FFBF00;
+  opacity: .5;
+  transition: color 0.5s ease
+}
+
+h1,h6{
+  color:white;
+  text-align: center;
+  letter-spacing: .1em
+}
+
+section{
+  background-color: #E6E6E6;
+  padding-top: 5%
+}
+
+.blanc{
+  background-color: white;
+  width: 100%;
+  padding:5%;
+ margin:5%
+}
+
+.spandiv{
+  background-color: #BDBDBD;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  margin: auto;
+}
+
+.spandiv p{color: gray;
+  padding:50% 0}
+
+h3{
+  color:gray;
+  margin:10px 0 
+}
+
+h5{
+  color:#BDBDBD;
+  padding: 0 10px
+}
+
+span button{
+  font-variant: small-caps;
+  font-size: 20px; 
+  color: white;
+  padding:5px 10px;
+  margin-top:5%;
+  background-color:#FFBF00;
+  border:none;
+}
+
+.centro{
+  text-align: center;
+}
+
+/*pie pagina*/
+footer{
+  background-color:#585858;
+}
+
+footer p { 
+  font-family: Helvetica;
+  font-size: 12px;
+  color: white;
+  padding: 2% 5%;
+}
+
+footer p:hover { 
+  opacity:.8 ;
+  transition: opacity 0.5s ease
+}
